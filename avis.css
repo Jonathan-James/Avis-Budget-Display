@@ -1,0 +1,36 @@
+body{
+	/*background-image: radial-gradient(circle at top left,#4ddcff 0%,  transparent);
+	background-image: url(hood.jpg);
+	background-size:cover;
+*/
+}
+
+header {
+	margin-top: 4%;
+	text-align: center;	
+}
+
+h1 {
+	font-size: 5em;
+	text-shadow: 5px 5px 10px black;
+}
+
+.window {
+	border: 1px solid black;
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+	margin-left:5%;
+}
+img{
+
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.window1 {}
+.window2 {}
+.window3 {margin-top: 3%}
+.window4 {margin-top: 3%}
+.window5 {margin-top: 3%}
+.window6 {margin-top: 3%}

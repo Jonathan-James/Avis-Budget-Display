@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Avis Budget Display Window</title>
+<link rel="stylesheet" href="Avis.css">
+</head>
+<body>
+<header>
+	<h1>Avis Budget Portland</h1>
+</header>
+	<div class="window window1">
+		<img id="myPhoto" src="img/bulb.png"/>
+		<script src="script.js"></script>
+	</div>
+	<div class="window window2"></div>
+	<div class="window window3"></div>
+	<div class="window window4"></div>
+	<div class="window window5"></div>
+	<div class="window window6"></div>
+</body>
+</html>
