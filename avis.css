@@ -3,24 +3,38 @@ body{
 	background-image: url(hood.jpg);
 	background-size:cover;
 */
+
+	
+	background-image: linear-gradient(transparent 0%, #000026),linear-gradient(#000026 0%,transparent), url('hood.jpg');
+
+	background-size: cover;
+}
+
+div {
+
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color: white;
 }
 
 header {
-	margin-top: 4%;
+	margin-top: 1%;
 	text-align: center;	
 }
 
 h1 {
-	font-size: 5em;
-	text-shadow: 5px 5px 10px black;
+	font-size: 4em;
+	/*text-shadow: 5px 5px 0 yellow;*/
+	font-family: cursive;
+	color:yellow;
 }
 
 .window {
 	border: 1px solid black;
 	display: inline-block;
-	width: 25%;
-	height: 25%;
-	margin-left:5%;
+	width: 27%;
+	height: 33%;
+	padding-left:6%;
 }
 img{
 
@@ -28,9 +42,24 @@ img{
   max-height: 100%;
 }
 
-.window1 {}
-.window2 {}
-.window3 {margin-top: 3%}
-.window4 {margin-top: 3%}
-.window5 {margin-top: 3%}
-.window6 {margin-top: 3%}
+
+.window4 {margin-top: 2%}
+.window5 {margin-top: 2%}
+.window6 {margin-top: 2%}
+
+p{
+	color:yellow;
+	font-family: cursive;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 4%;
+	padding-top: 4%;
+}
+
+#flagimage{
+	float:right;
+	padding-right: 3%;
+	padding-top:1.5%;
+	width:8%;
+	width:8%;
+	}
