@@ -1,6 +1,6 @@
 
 	var myImage2 = document.getElementById("myPhoto2");
-	var imageArray2  = ["url('img2/opal.jpg')", "url('img2/mult.jpg')", "url('img2/powells.jpg')"];
+	var imageArray2  = ["url('img2/farm.jpg')", "url('img2/race.jpg')", "url('img2/fuel.jpg')"];
 	var imageIndex2 = 0;
 
 
@@ -14,4 +14,4 @@
 			}
 		}
 
-		var intervalHandle = setInterval(changeImage2, 2000);
+		var intervalHandle = setInterval(changeImage2, 400);

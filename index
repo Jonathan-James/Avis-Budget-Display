@@ -7,29 +7,44 @@
 <header>
 	<h1>Visitor Information Center</h1>
 </header>
-	<div class="window window1" id="myPhoto1">
-		<script src="script.js"></script>
+
+	<div class="wrappertop">
+		<p>Attractions</p>
+		<div class="windowtop" id="myPhoto1">
+			<script src="script.js"></script>
+		</div>
 	</div>
-	<div class="window window2" id="myPhoto2">
-		<script src="script2.js"></script>
+
+	<div class="wrappertop">
+		<p>Budget Display</p>
+		<div class="windowtop" id="myPhoto2">
+			<script src="script2.js"></script>
+		</div>
 	</div>
-	<div class="window window3"></div>
-	<div class="window window4"></div>
-	<div class="window window5"></div>
-	<div class="window window6"></div>
+
+	<div class="wrappertop">
+		<p>Entertainment</p>
+		<div class="windowtop"></div>
+	</div>
+
+	<div class="wrapperbot">
+		<p>Events</p>
+		<div class="windowbot"></div>
+	</div>
+
+	<div class="wrapperbot">
+		<p>Policy</p>
+		<div class="windowbot"></div>
+	</div>
+
+	<div class="wrapperbot">
+		<p>Slideshow</p>
+		<div class="windowbot"></div>
+	</div>
+
 	<img src="Avis_Budget.jpg" id="flagimage">
 	
 
 </body>
 </html>
 
-<!--
-
-Updates that need to happen
-	- Code needs to be object oriented, stop using 6 different Javascript files (getElementById('myPhoto') should update from an array)
- - image files need to be pulled directly from folders, maybe a folder array?
- - Add titles above each content seciton
- - Maximize display area size
- - Add budget logo, verbage in bottom right or left corner
-
--->
