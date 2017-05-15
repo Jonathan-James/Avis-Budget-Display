@@ -21,4 +21,4 @@
 			}
 		}
 
-		var intervalHandle = setInterval(changeImage3, 4000);
+		var intervalHandle = setInterval(changeImage3, 7000);
