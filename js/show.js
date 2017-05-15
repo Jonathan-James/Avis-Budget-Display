@@ -33,4 +33,4 @@
 			}
 		}
 
-		var intervalHandle = setInterval(changeImage6, 1000);
+		var intervalHandle = setInterval(changeImage6, 10000);
