@@ -33,7 +33,7 @@
 			}
 		}
 
-		var intervalHandle = setInterval(changeImage, 1000);
+		var intervalHandle = setInterval(changeImage, 5000);
 
 		
 
