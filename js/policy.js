@@ -19,4 +19,4 @@
 			}
 		}
 
-		var intervalHandle = setInterval(changeImage5, 2000);
+		var intervalHandle = setInterval(changeImage5, 9000);
